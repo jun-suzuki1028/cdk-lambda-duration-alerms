@@ -1,4 +1,4 @@
-import { aws_lambda as lambda, Stack, StackProps, Duration } from "aws-cdk-lib";
+import { Stack, StackProps } from "aws-cdk-lib";
 import { Construct } from "constructs";
 import { Lambda } from "../construct/lambda";
 import { CloudWatch } from "../construct/cloudwatch";
